@@ -10,9 +10,9 @@ public class SignUpServlet extends HttpServlet {
         String password = request.getParameter("password");
         
         // JDBC 연결 정보
-        String jdbcURL = "jdbc:mysql://your-aws-rds-endpoint:3306/your_database_name";
-        String dbUser = "your_database_username";
-        String dbPassword = "your_database_password";
+        String jdbcURL = "jdbc:mysql://mysql-database-1.cdcae66o2aab.ap-northeast-2.rds.amazonaws.com:3306/mysql-database-1";
+        String dbUser = "kengoe";
+        String dbPassword = "12345678";
 
         try {
             // JDBC 드라이버 로드
